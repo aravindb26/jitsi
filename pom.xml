@@ -36,7 +36,7 @@
     <httpcomponents.version>4.5.14</httpcomponents.version>
     <jitsiGeneralGroupId>org.jitsi</jitsiGeneralGroupId>
     <!-- keep this empty default for Linux builds -->
-    <jitsi-deps-arch></jitsi-deps-arch>
+    <jitsi-deps-arch/>
   </properties>
 
   <dependencies>
@@ -109,7 +109,7 @@
         <scope>runtime</scope>
         <classifier>${jitsi-deps-arch}</classifier>
       </dependency>
-      <dependency><groupId>org.jmdns</groupId><artifactId>jmdns</artifactId><version>3.5.8</version></dependency>
+      <dependency><groupId>org.jmdns</groupId><artifactId>jmdns</artifactId><version>3.5.9</version></dependency>
       <dependency><groupId>org.jitsi</groupId><artifactId>jmork</artifactId><version>1.0.6</version></dependency>
       <dependency><groupId>net.java.dev.jna</groupId><artifactId>jna</artifactId><version>${jnaVersion}</version></dependency>
       <dependency><groupId>net.java.dev.jna</groupId><artifactId>jna-platform</artifactId><version>${jnaVersion}</version></dependency>
